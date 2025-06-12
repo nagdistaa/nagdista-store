@@ -1,3 +1,4 @@
+import Bot from "@/components/Bot";
 import Categories from "@/components/Categories";
 import Slider from "@/components/Slider";
 import React from "react";
@@ -7,9 +8,8 @@ export default function Home() {
     <>
       <Slider />
 
-      <div>
-        <Categories />
-      </div>
+      <Categories />
+        <Bot />
     </>
   );
 }
