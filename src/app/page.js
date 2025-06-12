@@ -1,10 +1,15 @@
+import Categories from "@/components/Categories";
 import Slider from "@/components/Slider";
 import React from "react";
 
 export default function Home() {
   return (
-    <div className="">
+    <>
       <Slider />
-    </div>
+
+      <div>
+        <Categories />
+      </div>
+    </>
   );
 }

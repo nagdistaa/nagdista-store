@@ -16,7 +16,7 @@ export default function Slider() {
 
   return (
     <div
-      className="h-[calc(100vh-50px)] w-full p-5 flex items-center justify-center bg-cover bg-center relative"
+      className="h-[calc(100vh-50px)] w-full p-3 flex items-center justify-center bg-cover bg-center relative"
       style={{ backgroundImage: `url("${sliderImages[currentIndex]}")` }}
     >
       {/* overlay */}
